@@ -1,0 +1,154 @@
+@media only screen and (max-width: 400px) {
+#landing-message {
+		transform: translateY(0%);
+		opacity: 0.75;
+	}
+	.testmap{
+		width: 100%
+	}
+
+	.nav-home {
+	font-size: 10px;
+	}
+
+	.imgtest {
+	height:200px;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+#landing-message {
+		transform: translateY(0%);
+		opacity: 0.75;
+		overflow: hidden;
+	}
+	.testmap{
+		width: 100%
+	}
+	
+	#about-main {
+	position: relative;
+	}
+
+
+	#about {
+	position: absolute;
+	top: 20%;
+	left: 50%;	
+	transform: translate(-50%,20%)
+	}
+
+	.nav-home {
+	font-size: 12px;
+	}
+
+	.imgtest {
+	height:300px;
+	}
+
+}
+
+
+@media only screen and (min-width: 961px) {
+	#landing-message {
+		transform: translateY(50%);
+		opacity: 0.75;
+		overflow: hidden;
+	}
+
+	#about-main {
+	position: relative;
+	}
+
+
+	#about {
+	position: absolute;
+	top: 100%;
+	left: 50%;	
+	transform: translate(-50%,100%)
+	}
+
+	#visit-btn {
+	transform: translateY(100%);
+	background-color: rgba(50, 50, 50, 1);
+	}
+
+	#landing-message {
+		transform: translateY(50%);
+		opacity: 0.75;
+	}
+
+	.carousel-inner {
+    height:600px;
+	}
+
+	.imgtest {
+	height:457px;
+	}
+}
+
+body {
+	background-color: #007bff;
+}
+
+#landing-page {
+	background: url(../images/land1.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#contact-page {
+	background: url(../images/land2.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	background: black;
+}
+
+#contact-head {
+	text-shadow: 3px 0 black;
+}
+
+.contact-main {
+	opacity: 0.75;
+}
+
+.testmap{
+		width: 100%
+	}
+
+#ul-home {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+
+.left{
+position:fixed;
+height: 100%;
+}
+
+
+.right {
+background-color: white;
+}
+
+.nav-home {
+	margin-left: -25px;
+	color: white;
+}
+
+.home-link {
+	color: white;
+}
+
+a.university:hover{
+	color:inherit;
+}
+
+#carouselExampleIndicators {
+	margin: auto;
+}
