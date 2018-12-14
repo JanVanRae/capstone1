@@ -25,7 +25,7 @@
 
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
 </head>
-<body>
+<body id="home-body">
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<div class="container-top brand">
@@ -62,17 +62,17 @@
 			<nav>
 				<ul id="ul-home">
 					<li class="nav-home">
-						<a class="nav-link home-link" href="#universities">Universities</a>
+						<a class="nav-link home-link" href="#universities">University</a>
 					</li>
 					<li class="nav-home">
 						<a class="nav-link home-link" href="#courses">Courses</a>
 					</li>
 					<li class="nav-home">
-						<a class="nav-link home-link" href="#programs">Programs and Degrees</a>
-					</li>
-					<li class="nav-home">
 						<a class="nav-link home-link" href="#subjects">Popular Subjects</a>
 					</li>
+				<!-- 	<li class="nav-home">
+						<a class="nav-link home-link" href="#programs">Programs and Degrees</a>
+					</li> -->
 				</ul>
 			</nav>
 		</div>
@@ -180,59 +180,76 @@
 			<br>
 			<div class="row" id="courses"> <!-- Courses -->
 				<div class="col-3">
-					<a href="https://www.edx.org/course?course=all" target="_blank"><h1>Courses Offered</h1></a>
+					<a href="https://www.edx.org/course?course=all" target="_blank"><h1 class="ul-course">Courses Offered</h1></a>
 					<img class="img-fluid" src="assets/images/land.jpg">
 				</div>
 				<div class="col-3">
-					<ul>
-					<li>Architecture</li>
-					<li>Art & Culture</li>
-					<li>Biology & Life Sciences</li>
-					<li>Business & Management</li>
-					<li>Chemistry</li>
-					<li>Communication</li>
-					<li>Computer Science</li>
-					<li>Data Analysis & Statistics</li>
-					<li>Design</li>
-					<li>Economics & Finance</li>
+					<ul class="ul-course">
+						<li>Architecture</li>
+						<li>Art & Culture</li>
+						<li>Business & Management</li>
+						<li>Chemistry</li>
+						<li>Communication</li>
+						<li>Computer Science</li>
+						<li>Data Analysis</li>
+						<li>Design</li>
+						<li>Electronics</li>
+						<li>Engineering</li>
+						<li>Environmental Studies</li>
+						<li>Ethics</li>
 					</ul>
 				</div>
 				<div class="col-3">
-				<ul>
-					<li>Education & Teacher Training</li>
-					<li>Electronics</li>
-					<li>Energy & Earth Sciences</li>
-					<li>Engineering</li>
-					<li>Environmental Studies</li>
-					<li>Ethics</li>
-					<li>Food & Nutrition</li>
-					<li>Health & Safety</li>
-					<li>History</li>
-					<li>Humanities</li>
-				</ul>
+					<ul class="ul-course">
+						<li>Health & Safety</li>
+						<li>History</li>
+						<li>Humanities</li>
+						<li>Language</li>
+						<li>Law</li>
+						<li>Literature</li>
+						<li>Math</li>
+						<li>Medicine</li>
+						<li>Music</li>
+						<li>Philanthropy</li>
+						<li>Physics</li>
+						<li>Science</li>
+					</ul>
 				</div>
-				<div class="col-3">
-				<ul>
-					<li>Language</li>
-					<li>Law</li>
-					<li>Literature</li>
-					<li>Math</li>
-					<li>Medicine</li>
-					<li>Music</li>
-					<li>Philanthropy</li>
-					<li>Philosophy & Ethics</li>
-					<li>Physics</li>
-					<li>Science</li>
-					<li>Social Sciences</li>
-				</ul>
-				</div>
-			</div>
-			<br>
-			<div class="row" id="programs"> <!-- Program -->
 			</div>
 			<br>
 			<div class="row" id="subjects"> <!-- popular subjects -->
+				<h2>Popular subjects</h2>
+				<div class="row">
+					<a class="navbar-brand" href="https://www.edx.org/course/subject/computer-science" target="_blank">
+						<div class="col subj">
+							<i class="fas fa-laptop">Computer Science</i>
+						</div>
+					</a>
+					<a class="navbar-brand" href="https://www.edx.org/course?subject=Language" target="_blank">
+						<div class="col subj">
+							<i class="fas fa-language">Language</i>
+						</div>
+					</a>
+					<a class="navbar-brand" href="https://www.edx.org/course/subject/data-science" target="_blank">
+						<div class="col subj">
+							<i class="fas fa-database">Data Science</i>
+						</div>
+					</a>
+					<a class="navbar-brand" href="https://www.edx.org/course?subject=Business%20%26%20Management" target="_blank">
+						<div class="col subj">
+							<i class="fas fa-briefcase">Business & Management</i>
+						</div>
+					</a>
+					<a class="navbar-brand" href="https://www.edx.org/course?subject=Engineering" target="_blank">
+						<div class="col subj">
+							<i class="fas fa-cogs">Engineering</i>
+						</div>
+					</a>
+				</div>
 			</div>
+			<br>
+			<!-- <div class="row" id="programs">  --><!-- Program -->
+			<!-- </div> -->
 		</div>
 	</main>
 

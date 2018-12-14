@@ -14,6 +14,10 @@
 	.imgtest {
 	height:200px;
 	}
+
+	.ul-course{
+		font-size: 8px;
+	}
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -44,6 +48,10 @@
 
 	.imgtest {
 	height:300px;
+	}
+
+	.ul-course{
+		font-size: 12px;
 	}
 
 }
@@ -87,7 +95,7 @@
 	}
 }
 
-body {
+#home-body {
 	background-color: #007bff;
 }
 
@@ -151,4 +159,19 @@ a.university:hover{
 
 #carouselExampleIndicators {
 	margin: auto;
+}
+
+.subj {
+	margin: 10px;
+}
+
+.gal-img {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px auto;
+}
+
+.gal-cont{
+	height: 100%;
 }
